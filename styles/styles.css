@@ -1,15 +1,36 @@
-.top-part{
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:#9F9F9F;
+}
+main{
+display: grid;
+justify-content: center;
 
 }
+.container{
+    background-color:#fff;
+    width:870px;
+}
 .top-player{
+padding: 30px;
 
+}
+.section-title{
+    font-size: 24px;
+    color:#562EFF;
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 .player{
     display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 .player img{
     width: 56px;
@@ -17,4 +38,35 @@
 }
 .player h3{
     margin-left: 10px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* mid part style */
+.mid-part{
+margin-top: -20px;
+}
+.top-blog{
+    padding: 30px;
+    
+}
+.blog-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog-summary{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.blog-summary img{
+    width: 150px;
+height: 100px;
+}
+.blog-title-writer{
+    margin-left: 20px;
+}
+.blog-title{
+    font-size: 1em;
 }
